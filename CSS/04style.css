@@ -1,0 +1,60 @@
+*{
+    font-family:"courier new";
+}
+h1 {
+    color: red;
+    background-color: yellow;
+}
+ 
+#login{
+    background-color: white;
+    color: blue;
+}
+#signup{
+    background-color: white;
+    color: blue;
+}
+.upvote{
+    background-color:orange;
+}
+p a {
+    color: red;
+    text-decoration: none;
+}
+header nav a {
+    color: hot pink;
+}
+p + h3{
+    text-decoration:   underline;
+}
+.article>h3{
+    color: brown;
+}
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: green;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    background-color: hotpink;
+}
+h4:active{
+  font-weight: bold;
+  color: green;  
+  background-color: aqua; 
+}
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+article:nth-of-type(n){
+    background-color: yellow;
+    font-weight: bolder;
+}
+
+/* 14 41 */

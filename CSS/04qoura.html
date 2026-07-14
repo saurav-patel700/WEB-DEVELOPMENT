@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Quora</title>
+    <link rel="stylesheet" href="04style.css">
+</head>
+<body>
+    <header>
+        <h1>Quora</h1>
+        <button id="login">log in</button>
+        <button id="signup">sign up</button> <br> <br>
+        <div>
+    <input type="text" placeholder="username">
+    <input type="password" placeholder="password">
+        </div>
+        <input type="text" placeholder="Search Questions">
+        <nav>
+            <a href="#">Home</a> <br>
+            <a href="#">Answer</a> <br>
+            <a href="#">Spaces</a> <br>
+            <a href="#">Notifications</a><br> 
+            <a href="#">Profile</a><br>
+        </nav>
+        <hr>
+    </header>
+    <section>
+        <h2>Ask a Question</h2>
+        <form>
+            <textarea rows="4" cols="60" placeholder="What do you want to ask?"></textarea>
+            <br><br>
+            <input type="submit" value="Post Question">
+        </form>
+        <hr>
+    </section>
+    <section>
+        <article>
+            <h3>What is HTML?</h3>
+            <p><b>Asked by:</b> Rahul </p>
+
+            <h4>Answer:</h4>
+            <p>
+                <a class= "follow" href="/rahul">Follow rahul</a> <br>
+                HTML stands for HyperText Markup Language.
+                It is used to create the structure of web pages.
+            </p>
+        </article>
+
+        <hr>
+
+        <article>
+            <h3>How can I learn Web Development?</h3>
+            <p><b>Asked by:</b> Saurav</p>
+
+            <h4>Answer:</h4>
+            <p>
+            <h3>Start with HTML, then learn CSS and JavaScript.
+                After that, move to React and backend technologies.</h3>
+            </p>
+        </article>
+        <hr>
+        <article>
+            <h3>What is the difference between HTML and CSS?</h3>
+            <p><b>Asked by:</b> Aman</p>
+
+            <h4>Answer:</h4>
+            <p class="upvote">
+                HTML provide s the structure of a webpage,
+                while CSS is used to style and design it.
+            </p>
+            <button class="upvote">upvote</button>
+        </article>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <hr>
+        <p>&copy; 2026 Mini Quora. All Rights Reserved.</p>
+        <button class="hover">hover</button>
+    </footer>
+    <div>
+    <input type="radio" id="yes" name="agree">
+    <label for="yes">yes</label>
+    <input type="radio" id="no" name="agree">
+    <label for="no">no</label>
+</div>
+</body>
+</html>
