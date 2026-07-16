@@ -49,7 +49,8 @@ h4:active{
   background-color: aqua; 
 }
 input[type="radio"]:checked + label {
-    color: red;
+    color: blue;
+
     font-weight: bold;
 }
 article:nth-of-type(n){
