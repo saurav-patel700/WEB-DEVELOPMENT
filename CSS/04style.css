@@ -1,3 +1,6 @@
+h1{
+    color: red !important;
+}
 *{
     font-family:"courier new";
 }
@@ -20,7 +23,7 @@ h1 {
 p a {
     color: red;
     text-decoration: none;
-}
+} 
 header nav a {
     color: hot pink;
 }
@@ -48,7 +51,7 @@ h4:active{
   color: green;  
   background-color: aqua; 
 }
-input[type="radio"]:checked + label {
+input[type="radio"]:checked + label { 
     color: blue;
 
     font-weight: bold;
@@ -57,5 +60,13 @@ article:nth-of-type(n){
     background-color: yellow;
     font-weight: bolder;
 }
-
-/* 14 41 */
+/* h1::first-letter{
+   
+} */ 
+    
+p::first-line{
+    color: purple;
+}
+p::selection{
+    background-color: red;
+}

@@ -1,0 +1,16 @@
+div{
+    color: blue;
+    background-color: green;
+}
+p{
+    color: yellow ;
+}
+button{
+    background-color: inherit;
+}
+button:hover{
+    background-color: red;
+}
+/* 4 28  intermediate css
+box model
+*/
