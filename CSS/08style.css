@@ -16,5 +16,22 @@
     margin: 5px;
     height: 100px;
     width: 200px;
-    display: inline-block;
- }
+    display: inline-block; 
+  }
+h1{
+  border: 2px solid black;
+  width: 50%; 
+}
+#outer{
+   height: 400px;
+   width: 400px;
+   background-color: green;
+   margin: 50px;
+}
+#inner{
+   height: 100px;
+   width: 100px;
+   background-color: pink; 
+   margin: 10%;
+}
+/* 1246 */
