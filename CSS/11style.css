@@ -21,4 +21,18 @@ div:nth-last-of-type(3n){
 #one{
     transform: rotate(90deg);
 }
-/* 3 12 */
+#two{
+    transform: scale(0.5,2 );
+}
+#three{
+    transform: translate(400px,400px);
+}
+#four { 
+    transform: skew(-30deg); 
+}
+#five{
+    transform: rotate(30deg) translateX(150px);
+}
+#six{
+    box-shadow: 2px 2px 10px red;
+}

@@ -1,0 +1,27 @@
+.card{
+    width: 250px;
+    height: 530px;
+    border: 5px solid green;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px ;
+    box-shadow: 4px 4px 10px green;
+    transition: 1s;
+    /* overflow: hidden; */
+    /* vertical-align: top; */
+
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+.desc{
+    padding: 2px;
+    
+}
+.card:hover{
+    box-shadow: 5 8px 20px green;
+}
+/* 8 22 */
