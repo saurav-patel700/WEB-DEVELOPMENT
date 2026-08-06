@@ -1,0 +1,18 @@
+.container-fluid{
+    background-color: yellow;
+}
+.btn-info{
+    background-color: blue;
+}
+.btn-primary{
+    background-color: green;
+}
+.btn-success{
+    background-color: lightgreen;
+}
+.btn-warning{
+    background-color: orange;
+}
+.btn-danger{
+    background-color: red;
+} 
