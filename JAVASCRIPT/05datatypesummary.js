@@ -29,3 +29,20 @@ const myfunction=function(){
 }
 console.log(typeof outsidetemp);
 console.log(typeof scorevalue);
+
+
+///+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//stack [primitive] ,  heap [non primitive]
+
+let myname="saurav"
+let sname="myname"
+sname="change"
+console.log(sname)
+console.log(myname)
+
+let userOne={
+    email:"user@google.com",
+    upi: "user@ybl"
+}
+// print
+console.log(userOne.email);
