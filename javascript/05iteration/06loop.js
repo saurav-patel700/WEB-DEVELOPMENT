@@ -1,10 +1,4 @@
-// 8 25
-
-
-
-// const coding = ["js", "ruby", "java", "python", "cpp"]
-
-
+// const coding = ["js", "ruby", "java", "python", "cpp"] 
 // const values = coding.forEach( (item) => {
 //     console.log(item);
 //     return item
