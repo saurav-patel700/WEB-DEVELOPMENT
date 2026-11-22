@@ -1,8 +1,3 @@
-
-
-
-
-
 // data types 
 // number 
 // boolean 
@@ -11,4 +6,4 @@
 // null 
 // bigint
 // Symbol
-// 811
+
